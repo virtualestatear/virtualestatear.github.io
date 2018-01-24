@@ -1410,7 +1410,7 @@
 	  function initialize() {
 	    var myOptions = {
 	      zoom: 13,
-	      center: new google.maps.LatLng(40.822431, -73.942655),
+	      center: new google.maps.LatLng(-34.564745,-58.4445077),
 	      scrollwheel: false,
 	      mapTypeId: google.maps.MapTypeId.ROADMAP,
 	      styles: [{
@@ -1475,7 +1475,7 @@
 	    map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
 	    new google.maps.Marker({
 	      map: map,
-	      position: new google.maps.LatLng(40.822431, -73.942655)
+	      position: new google.maps.LatLng(-34.566669, -58.433614)
 	    });
 	    google.maps.event.addListener(map, 'click', function(event) {
 	      this.setOptions({ scrollwheel: true });
